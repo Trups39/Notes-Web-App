@@ -95,6 +95,3 @@ All methods send appropriate status messages (successful/unsuccessful) upon comp
  - The `useDispatch()` function is used to transmit the Redux states for operating the frontend.
  - Both user and note reducers are combined and stored with `redux-thunk` middleware applied.
  - It allows us to handle asynchronous actions and side effects by dispatching actions from within the thunk.
-## Deployment
- - The backend API is deployed on [Cyclic.sh](https://www.cyclic.sh/)
- - The frontend is deployed on [Vercel](https://vercel.com/)
